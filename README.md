@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
 
-## Project info
+<img src="https://repository-images.githubusercontent.com/995964286/f0a7ea9a-9015-4e38-9002-64889032b37b" width="400">
 
-**URL**: https://lovable.dev/projects/fc868f6c-ac73-4899-a8de-7568ca47d9b1
+# Suasana
 
-## How can I edit this code?
+A web application that brings the authentic sounds of Malaysia to your ears. Stream and listen to carefully curated background sounds, ambient noise, and atmospheric audio from across Malaysia - perfect for relaxation, focus, or simply feeling connected to home.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Malaysian Soundscapes** - Authentic ambient sounds from various locations across Malaysia
+- **High-Quality Streaming** - Crystal clear audio streaming for immersive listening
+- **Diverse Categories** - From bustling city sounds to peaceful nature ambience
+- **Easy Controls** - Simple play, pause, and volume controls for seamless experience
+- **Responsive Design** - Enjoy the sounds on any device, anywhere
+- **Offline-Ready** - Cache your favorite sounds for uninterrupted listening
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fc868f6c-ac73-4899-a8de-7568ca47d9b1) and start prompting.
+## Sound Categories
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🏙️ **Urban Malaysia** - Bustling streets, markets, and city life
+- 🌿 **Nature Sounds** - Rainforests, beaches, and natural environments  
+- ☕ **Kopitiam Vibes** - Traditional coffee shops and local eateries
+- 🌧️ **Tropical Weather** - Monsoon rains and tropical storms
+- 🕌 **Cultural Ambience** - Traditional settings and cultural spaces
+- 🌃 **Night Sounds** - Evening crickets, night markets, and nocturnal atmosphere
 
-**Use your preferred IDE**
+## Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend Framework**: React
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting Started
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js (version 16 or higher)
+- npm or yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/suasana.git
+   cd suasana
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-**Edit a file directly in GitHub**
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+4. Open your browser and navigate to `http://localhost:5173`
 
-**Use GitHub Codespaces**
+### Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-## What technologies are used for this project?
+## Contributing
 
-This project is built with:
+We welcome contributions from the community! Help us expand our collection of Malaysian soundscapes:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### How to Contribute
 
-## How can I deploy this project?
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/new-soundscape`
+3. **Make your changes** and test them thoroughly
+4. **Commit your changes**: `git commit -m 'Add new soundscape feature'`
+5. **Push to the branch**: `git push origin feature/new-soundscape`
+6. **Open a Pull Request**
 
-Simply open [Lovable](https://lovable.dev/projects/fc868f6c-ac73-4899-a8de-7568ca47d9b1) and click on Share -> Publish.
+### Ways to Contribute
 
-## Can I connect a custom domain to my Lovable project?
+- 🎵 **Add New Sounds** - Contribute high-quality Malaysian ambient recordings
+- 🐛 **Bug Fixes** - Help us improve the user experience
+- ✨ **New Features** - Implement player controls, playlists, or UI improvements
+- 📝 **Documentation** - Improve README, add sound descriptions, or create guides
+- 🎨 **Design** - Enhance the visual design and user interface
 
-Yes, you can!
+### Contribution Guidelines
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Ensure audio files are high quality and properly licensed
+- Follow the existing code style and conventions
+- Write clear, descriptive commit messages
+- Test your changes across different devices and browsers
+- Be respectful of Malaysian culture and communities in sound selection
+- Update documentation as needed
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Sound Contribution Guidelines
+
+- Audio should be original recordings or properly licensed
+- Minimum quality: 192kbps, stereo
+- Include location and context information for each sound
+- Respect privacy and obtain necessary permissions for recordings
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to all contributors who help preserve and share Malaysia's rich soundscape
+- Appreciation for the diverse communities across Malaysia that inspire these ambient collections
+
+## Support
+
+If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/suasana/issues) on GitHub.
+
+---
+
+Made with ❤️ by [Ambik Project](https://ambik.link)
